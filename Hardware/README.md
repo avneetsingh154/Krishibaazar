@@ -1,4 +1,4 @@
-![image (2)](https://github.com/user-attachments/assets/c52b06d1-397f-4efa-ad5f-89a0ca0dd68e)# Hardware Design 🛠️
+# Hardware Design 🛠️
 
 Welcome to the **Hardware** folder! This section details the hardware design for our Crop Sales and MSP Assurance Platform, including the PCB design and the various sensors used. The hardware plays a crucial role in detecting crop quality and providing real-time data that is integrated with our platform.
 
