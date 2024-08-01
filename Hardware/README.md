@@ -34,9 +34,10 @@ Here’s an overview of the sensors and components integrated into our hardware:
 
 We have also included code to interface with these sensors and manage data collection. The code is designed to work with the sensors and display data effectively. You can find the code in the relevant section of this folder.
 
-## Software Images 📸
+## Hardware Images 📸
 
-Below are some images showcasing the software interface that interacts with the hardware. These images illustrate how the sensor data is displayed and utilized within our platform:
+Below are some images showcasing the hardware components and raw Images.
+
 ![Components](https://github.com/user-attachments/assets/7bd7af1b-8098-443c-8c9e-a58390a08230)
 
 ![Raw image](https://github.com/user-attachments/assets/32be13c2-4222-4e61-8e41-5afdbe77179c)
