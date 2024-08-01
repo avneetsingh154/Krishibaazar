@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crop Investigation Questionnaire</title>
+    <!--  body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f2f2f2; } .container { width: 80%; margin: auto; overflow: hidden; padding: 20px; } h2 { background-color: #4CAF50; color: white; padding: 15px; margin: -20px -20px 20px -20px; } h3 { color: #4CAF50; margin: 10px 0; } label { display: block; margin: 10px 0 5px 0; } input[type="text"], input[type="date"], input[type="tel"], textarea { width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; } textarea { height: 100px; } input[type="file"] { margin-bottom: 10px; } h4 { margin: 10px 0; color: #666; } -->
+    
+    <style>body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f2f2f2; } .container { width: 80%; margin: auto; overflow: hidden; padding: 20px; } h2 { background-color: #4CAF50; color: white; padding: 15px; margin: -20px -20px 20px -20px; } h3 { color: #4CAF50; margin: 10px 0; } label { display: block; margin: 10px 0 5px 0; } input[type="text"], input[type="date"], input[type="tel"], textarea { width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; } textarea { height: 100px; } input[type="file"] { margin-bottom: 10px; } h4 { margin: 10px 0; color: #666; } input[type="radio"] { margin-right: 10px; }</style> <body> <div class="container"> <h2>Farm Investigation Questionnaire</h2> <p>This questionnaire is used in the domestic and imported survey follow-ups and outbreak source investigations. It was developed by CFSAN and ORA for use on investigations of farms implicated in produce associated outbreaks or farms that grew produce that was found positive for pathogens by FDA testing. Attach forms for reporting additional water sources (Form FDA 3623a) and additional sets of workers (Form FDA 3623b) to the primary Farm Questionnaire.</p> <h3>General Information</h3> <label for="farmOwner">Name of Farm Owner:</label><br> <input type="text" id="farmOwner" name="farmOwner"><br> <label for="farmAddress">Farm Address:</label><br> <input type="text" id="farmAddress" name="farmAddress"><br> <label for="phoneNumber">Phone Number:</label><br> <input type="tel" id="phoneNumber" name="phoneNumber"><br> <label for="suspectFields">Location of Suspect Fields:</label><br> <input type="text" id="suspectFields" name="suspectFields"> 
+         
+        
+    <div class="container"> <!-- ... Previous code ... --> <h3>Weather</h3> <label for="weatherCondition">1. Were there any weather conditions during the growing or harvesting period e.g., drought, heavy rains, fog or humidity?</label><br> <input type="radio" id="weatherNo" name="weather" value="no" checked> <label for="weatherNo">No</label><br> <input type="radio" id="weatherYes" name="weather" value="yes"> <label for="weatherYes">Yes</label><br> <label for="weatherExplain">Explain:</label><br> <textarea id="weatherExplain" name="weatherExplain"></textarea><br> 
+                
+    <label for="weatherCondition">2. Was the field exposed to flooding any time during the growing or harvesting 
+     period?</label><br> <input type="radio" id="weatherNo" name="weather" value="no" checked> <label for="weatherNo">No</label><br> <input type="radio" id="weatherYes" name="weather" value="yes"> <label for="weatherYes">Yes</label><br> <label for="weatherExplain">If yes, when in relation to harvest:</label><br> <textarea id="weatherExplain" name="weatherExplain"></textarea><br>
+     <label for="weatherExplain">What was the depth?</label><br> <textarea id="DepthExplain" name="DepthExplain"></textarea><br>
+
+    <label for="weatherCondition">3. Could heavy rainfall or flooding have contained or spread sewage, manure or other 
+    contaminants?</label><br> <input type="radio" id="weatherNo" name="weather" value="no" checked> <label for="weatherNo">No</label><br> <input type="radio" id="weatherYes" name="weather" value="yes"> <label for="weatherYes">Yes</label><br> <label for="weatherExplain">If yes, list the sources and their distance from the farm:</label><br> <textarea id="weatherExplain" name="weatherExplain"></textarea><br>
+
+    <label for="weatherCondition">4. Has animal manure been used for fertilizer within the last year?</label><br> <input type="radio" id="weatherNo" name="weather" value="no" checked> <label for="weatherNo">No</label><br> <input type="radio" id="weatherYes" name="weather" value="yes"> <label for="weatherYes">Yes</label><br> <label for="weatherExplain"><br>
+
+    <label for="weatherCondition">5. Is the manure composted?</label><br> <input type="radio" id="weatherNo" name="weather" value="no" checked> <label for="weatherNo">No</label><br> <input type="radio" id="weatherYes" name="weather" value="yes"> <label for="weatherYes">Yes</label><br> <label for="weatherExplain"><br>
+
+    <label for="weatherCondition">6. Is human waste used as fertilizer?</label><br> <input type="radio" id="weatherNo" name="weather" value="no" checked> <label for="weatherNo">No</label><br> <input type="radio" id="weatherYes" name="weather" value="yes"> <label for="weatherYes">Yes</label><br> <label for="weatherExplain"><br>
+        
+    <label for="weatherCondition">7. On what crops are the sludge/biosolids used?</label><br><textarea id="weatherExplain" name="weatherExplain"></textarea><br>
+
+    <label for="weatherCondition">8.Are chemical fertilizers used?</label><br> <input type="radio" id="weatherNo" name="weather" value="no" checked> <label for="weatherNo">No</label><br> <input type="radio" id="weatherYes" name="weather" value="yes"> <label for="weatherYes">Yes</label><br> <label for="weatherExplain"><br>
+
+    <label for="weatherCondition">9. How many days prior to harvest were the chemicals applied?</label><br><textarea id="weatherExplain" name="weatherExplain"></textarea><br>
+    
+    <label for="weatherCondition">10. What crops are treated with chemical fertilizers?</label><br><textarea id="weatherExplain" name="weatherExplain"></textarea><br>
+    
+    <label for="weatherCondition">11. Was water used to mix with the chemicals applied?</label><br> <input type="radio" id="weatherNo" name="weather" value="no" checked> <label for="weatherNo">No</label><br> <input type="radio" id="weatherYes" name="weather" value="yes"> <label for="weatherYes">Yes</label><br> <label for="weatherExplain">If yes, what was the source of the water?</label><br> <textarea id="weatherExplain" name="weatherExplain"></textarea><br>
+
+    <label for="weatherCondition">12. Does the farm apply pesticides or herbicides to crops?</label><br> <input type="radio" id="weatherNo" name="weather" value="no" checked> <label for="weatherNo">No</label><br> <input type="radio" id="weatherYes" name="weather" value="yes"> <label for="weatherYes">Yes</label><br> <label for="weatherExplain">If yes, what was the source of the water?</label><br> <textarea id="weatherExplain" name="weatherExplain"></textarea><br>
+
+    <label for="weatherCondition">13.  What is the water source used for mixing and applying pesticides?</label><br><textarea id="weatherExplain" name="weatherExplain"></textarea><br>
+
+    <label for="weatherCondition">14.What tools are used in harvesting the crop, e.g., knives, clippers?</label><br><textarea id="weatherExplain" name="weatherExplain"></textarea><br>
+
+    <div><input type="submit" value="Submit" class="s"> </div>
+    </div>
+    </body>
+    <script src="rbuys.js"></script>
+  </head>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sell Crop Form</title>
+    <link rel="stylesheet" href="sell.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        max-width: 400px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type="text"] {
+        width: 90%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 20px;
+      }
+      button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sell Crop</h1>
+      <form id="cropForm">
+        <label for="cropQuantity">Crop Quantity (kg)</label>
+        <input
+          type="text"
+          id="cropQuantity"
+          name="cropQuantity"
+          placeholder="Enter quantity in kg"
+          required
+        />
+
+        <label for="expectedAmount">Expected Amount</label>
+        <input
+          type="text"
+          id="expectedAmount"
+          name="expectedAmount"
+          placeholder="Enter expected amount"
+          required
+        />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script>
+      // Handle form submission
+      document
+        .getElementById("cropForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          const quantity = document.getElementById("cropQuantity").value;
+          const amount = document.getElementById("expectedAmount").value;
+          console.log(
+            `Crop Quantity: ${quantity} kg, Expected Amount: ${amount}`
+          );
+          window.location.href = "/image.html";
+          // You can perform additional actions here (e.g., send data to a server).
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+body {
+    margin: 0%;
+    background-color: rgb(73, 130, 73);
+  }
+  .sponsored-products {
+    text-align: center;
+    margin: 0%;
+    background-color: rgb(73, 130, 73);
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .sponsored-products h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .product-card {
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    margin-left: 1%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .product-card p {
+    font-size: 0.8rem;
+    margin: 10px 0;
+    color: #666;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .rating {
+    font-size: 1rem;
+    color: #ffb400;
+    margin: 10px 0;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .price {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .price span {
+    color: #666;
+    text-decoration: line-through;
+    margin-left: 10px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .buy1 {
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: rgb(119, 125, 2);
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .buy2 {
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: rgb(119, 125, 2);
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .buy3 {
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: rgb(119, 125, 2);
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .buy4 {
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: rgb(119, 125, 2);
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .buy5 {
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: rgb(119, 125, 2);
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .buy6 {
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: rgb(119, 125, 2);
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  

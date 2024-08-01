@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ongoing Deals</title>
+    <style>
+      /* Center the content */
+      body {
+        background-image: url(bk.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full viewport height */
+        margin: 0;
+        font-family: Arial, sans-serif; /* Set the font family */
+      }
+
+      /* Box styling */
+      .deal-box {
+        color: white;
+        font-size: 50px;
+        width: 400px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Heading styling */
+      .deal-heading {
+        font-size: 24px; /* Increase the font size */
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      /* List styling */
+      .deal-list {
+        list-style: none;
+        padding: 0;
+        color: black;
+      }
+
+      /* List item styling */
+      .deal-item {
+        font-size: 18px; /* Increase the font size */
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .deal-item:hover {
+        background-color: #e0e0e0; /* Darken background color on hover */
+      }
+
+      /* Hover effect for the deal boxes */
+      .deal-box:hover {
+        transform: scale(1.05); /* Scale up the deal box on hover */
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Add a stronger box shadow on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="deal-box">
+      <h1 class="deal-heading">Deals History</h1>
+      <ul class="deal-list">
+        <li class="deal-item">
+          Sr no1: <br />By Reliance Industries Ltd. <br />crop- maize
+          <br />quantity- 12000kg <br />price- 168000 Rs
+        </li>
+        <li class="deal-item">
+          Sr no2 : <br />By Shivansh Kamboj <br />crop- wheat <br />quantity-
+          12000kg <br />price- 180000 Rs
+        </li>
+        <li class="deal-item">
+          Sr no3: <br />By Adani Industries Ltd. <br />crop- rise
+          <br />quantity- 12000kg <br />price- 160000 Rs
+        </li>
+        <!-- Add more deals as needed -->
+      </ul>
+    </div>
+  </body>
+</html>

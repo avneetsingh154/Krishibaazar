@@ -1,0 +1,165 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.bgm {
+  height: 780px;
+  width: 100%;
+  background-image: url(bk.png);
+  background-position: center;
+  background-size: contain;
+}
+.head {
+  height: 8%;
+  width: 100%;
+  backdrop-filter: blur(3px);
+}
+.logo {
+  color: rgb(249, 247, 247);
+  opacity: 100%;
+  width: 15%;
+  margin-left: 2%;
+  float: left;
+  margin-top: 0%;
+}
+.option1 {
+  margin-top: 1.4%;
+  margin-left: 34%;
+  width: 15%;
+  height: 8%;
+  font-family: "Orbitron", sans-serif;
+  float: left;
+  color: aliceblue;
+}
+.option2 {
+  margin-left: 1%;
+  margin-top: 1.4%;
+  width: 10%;
+  height: 8%;
+  font-family: "Orbitron", sans-serif;
+  float: left;
+  color: aliceblue;
+}
+.option3 {
+  margin-top: 1.4%;
+  width: 12%;
+  height: 8%;
+  font-family: "Orbitron", sans-serif;
+  float: left;
+  color: aliceblue;
+}
+.shadow__btn {
+  margin-top: 0.8%;
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  float: left;
+  max-width: 300px;
+}
+
+.shadow__btn {
+  background: rgb(172, 166, 4);
+  box-shadow: 0 0 25px rgb(234, 255, 0);
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(234, 255, 0), 0 0 25px rgb(191, 255, 0),
+    0 0 50px rgb(238, 255, 0), 0 0 100px rgb(0, 140, 255);
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.bbox {
+  height: 400px;
+  margin-left: 10%;
+  width: 80%;
+  background-color: rgb(39, 56, 39);
+  margin-top: 10%;
+  border-radius: 10px;
+}
+.profile {
+  height: 400px;
+  width: 30%;
+  float: left;
+  background-image: url(far.jpg);
+  background-position: center;
+}
+.sell {
+  height: 70px;
+  margin-top: 30px;
+  width: 60%;
+  background-color: rgba(27, 27, 27, 0.61);
+  backdrop-filter: blur(3px);
+  float: left;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+}
+.sell:hover {
+  background-color: rgb(6, 70, 60);
+}
+.ongoing:hover {
+  background-color: rgb(6, 70, 60);
+}
+.completed:hover {
+  background-color: rgb(6, 70, 60);
+}
+.fertilizers:hover {
+  background-color: rgb(6, 70, 60);
+}
+.ongoing {
+  height: 70px;
+  margin-top: 20px;
+  width: 60%;
+  background-color: rgba(27, 27, 27, 0.61);
+  backdrop-filter: blur(3px);
+  float: left;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+}
+.completed {
+  height: 70px;
+  margin-top: 20px;
+  width: 60%;
+  background-color: rgba(27, 27, 27, 0.61);
+  backdrop-filter: blur(3px);
+  float: left;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Rubik", sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+}
+.fertilizers {
+  height: 70px;
+  margin-top: 20px;
+  width: 60%;
+  background-color: rgba(27, 27, 27, 0.61);
+  backdrop-filter: blur(3px);
+  float: left;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Rubik", sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+}

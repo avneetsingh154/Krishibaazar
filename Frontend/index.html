@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* .bgm {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  } */
+
+      .backvideo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1; /* Ensure it's behind other content */
+      }
+
+      .head {
+        position: relative;
+        z-index: 1; /* Ensure other content is above the video */
+        /* Add your existing styling for .head here */
+      }
+
+      /* Add your existing styling for other elements here */
+    </style>
+  </head>
+  <body>
+    <div class="bgm">
+      <div class="head">
+        <div class="logo">
+          <img src="cn-removebg-preview.png" alt="" height="75px" />
+        </div>
+        <div class="option1">
+          <a href="#" target="_parent"> <u>MARKETPLACE</u></a>
+        </div>
+        <div class="option2">
+          <a href="#" target="_parent"><u>FERTILIZERS</u></a>
+        </div>
+        <div class="option3">
+          <a href="features.html" target="_parent"><u>FEATURES</u></a>
+        </div>
+        <div>
+          <a href="login.html"
+            ><button class="shadow__btn">LOGIN/REGISTER</button></a
+          >
+        </div>
+        <div class="t1">
+          "EMPOWERING FARMERS, CULTIVATING FUTURES'
+          <p id="para">
+            “Welcome to your Farmer's Marketplace, a dedicated online platform
+            crafted exclusively for farmers like you. Here, you'll find a
+            virtual marketplace tailored to your needs, connecting you directly
+            with eager buyers seeking the fruits of your labor. Say goodbye to
+            intermediaries and hello to fair prices and greater control over
+            your sales. Join us in harnessing the power of technology to elevate
+            your farming business and forge stronger connections with consumers
+            who value your hard work and dedication”
+          </p>
+        </div>
+        <div class="t2">
+          <img src="img 3.png" alt="" id="img" height="500px" />
+        </div>
+      </div>
+      <video autoplay loop muted plays-inline class="backvideo">
+        <source
+          src="Golden Wheat Blowing in the Wind - Royalty Free HD Video Stock Footage.mp4"
+        />
+      </video>
+    </div>
+    <div class="roller">
+      <p id="cen">"Empower them through education"</p>
+      <p id="den">
+        "We can Provide them equal opportunities with our tech solutions."
+      </p>
+      <div class="modules">
+        <div class="grid-container">
+          <div class="grid-item">
+            <img
+              src="indian farmer i 47fad482-744d-451a-91ee-665799566ac0.png"
+              alt=""
+              height="300px"
+              width="300px"
+              style="border-radius: 10%"
+            />
+          </div>
+          <div class="grid-item">
+            <img
+              src="A (((farmer)))  2a159556-949d-4cb0-9c7f-b79cff87592a.png"
+              alt=""
+              height="300px"
+              width="300px"
+              style="border-radius: 10%"
+            />
+          </div>
+          <div class="grid-item">
+            <img
+              src="indian farmer h 8d02e1d3-a0a6-4898-966c-032af7559847.png"
+              alt=""
+              height="300px"
+              width="300px"
+              style="border-radius: 10%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="foot">ghh</div>
+  </body>
+  <script src="script.js"></script>
+</html>
