@@ -34,5 +34,5 @@ The repository is organized into the following four folders:
 
 4. **ml_model**: Provides details on how we will train our machine learning model. This folder includes information about the dataset, model architecture, training procedures, and evaluation metrics. 🤖
 
-Feel free to explore each folder to understand the different components of our project and contribute to its development. 🚀
+Feel free to explore each folder to understand the different components of our project. 🚀
 ```
